@@ -48,8 +48,6 @@ set_global_assignment -name OUTPUT_IO_TIMING_FAR_END_VMEAS "HALF SIGNAL SWING" -
 set_global_assignment -name USE_GENERATED_PHYSICAL_CONSTRAINTS OFF -section_id eda_blast_fpga
 set_global_assignment -name VHDL_INPUT_VERSION VHDL_2008
 set_global_assignment -name VHDL_SHOW_LMF_MAPPING_MESSAGES OFF
-set_global_assignment -name SEARCH_PATH ip_cores/vga
-set_global_assignment -name SEARCH_PATH ip_cores/ps2_keyboard
 
 set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
@@ -59,7 +57,7 @@ set_location_assignment PIN_86 -to led[1]
 set_location_assignment PIN_85 -to led[2]
 set_location_assignment PIN_84 -to led[3]
 set_location_assignment PIN_110 -to beep
-set_global_assignment -name ENABLE_SIGNALTAP ON
+set_global_assignment -name ENABLE_SIGNALTAP OFF
 set_global_assignment -name USE_SIGNALTAP_FILE stp1.stp
 set_global_assignment -name SYSTEMVERILOG_FILE top.sv
 set_global_assignment -name SYSTEMVERILOG_FILE defs.sv
@@ -74,4 +72,6 @@ set_global_assignment -name MIF_FILE gen_ram.mif
 set_global_assignment -name MIF_FILE scr_ram.mif
 set_global_assignment -name QIP_FILE scr_ram.qip
 set_global_assignment -name QIP_FILE ram.qip
+set_global_assignment -name SEARCH_PATH ps2_keyboard
+set_global_assignment -name SEARCH_PATH vga
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

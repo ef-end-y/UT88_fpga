@@ -1,3 +1,9 @@
+// Intel 8080 (KR580VM80A) microprocessor
+//
+// Copyright (C) 2016 Volyk Stanislav <max.begemot@gmail.com>
+
+
+
 `timescale 1ns / 1ps
 
 //`define       BIDIRECTIONAL_DATA
