@@ -1,0 +1,43 @@
+# Copyright (C) 1991-2016 Altera Corporation. All rights reserved.
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, the Altera Quartus Prime License Agreement,
+# the Altera MegaCore Function License Agreement, or other 
+# applicable license agreement, including, without limitation, 
+# that your use is for the sole purpose of programming logic 
+# devices manufactured by Altera and sold by Altera or its 
+# authorized distributors.  Please refer to the applicable 
+# agreement for further details.
+
+# Quartus Prime Version 16.0.0 Build 211 04/27/2016 SJ Lite Edition
+# File: E:\8080cpu\pinplanner.csv
+# Generated on: Sun Nov 13 14:13:08 2016
+
+# Note: The column header names should not be changed if you wish to import this .csv file into the Quartus Prime software.
+
+To,Direction,Location,I/O Bank,VREF Group,Fitter Location,I/O Standard,Reserved,Current Strength,Slew Rate,Differential Pair,Strict Preservation
+clk,Input,PIN_23,1,B1_N0,PIN_23,3.3-V LVTTL,,,,,
+hsync,Output,PIN_101,6,B6_N0,PIN_101,3.3-V LVTTL,,,,,
+ps2_clk,Input,PIN_119,7,B7_N0,PIN_119,3.3-V LVTTL,,,,,
+ps2_data,Input,PIN_120,7,B7_N0,PIN_120,3.3-V LVTTL,,,,,
+rgb[2],Output,PIN_106,6,B6_N0,PIN_106,3.3-V LVTTL,,,,,
+rgb[1],Output,PIN_105,6,B6_N0,PIN_105,3.3-V LVTTL,,,,,
+rgb[0],Output,PIN_104,6,B6_N0,PIN_104,3.3-V LVTTL,,,,,
+rst,Input,PIN_25,2,B2_N0,PIN_25,3.3-V LVTTL,,,,,
+vsync,Output,PIN_103,6,B6_N0,PIN_103,3.3-V LVTTL,,,,,
+dig[0],Unknown,PIN_133,8,B8_N0,,,,,,,
+dig[1],Unknown,PIN_135,8,B8_N0,,,,,,,
+dig[2],Unknown,PIN_136,8,B8_N0,,,,,,,
+dig[3],Unknown,PIN_137,8,B8_N0,,,,,,,
+seg[0],Unknown,PIN_128,8,B8_N0,,,,,,,
+seg[1],Unknown,PIN_121,7,B7_N0,,,,,,,
+seg[2],Unknown,PIN_125,7,B7_N0,,,,,,,
+seg[3],Unknown,PIN_129,8,B8_N0,,,,,,,
+seg[4],Unknown,PIN_132,8,B8_N0,,,,,,,
+seg[5],Unknown,PIN_126,7,B7_N0,,,,,,,
+seg[6],Unknown,PIN_124,7,B7_N0,,,,,,,
+seg[7],Unknown,PIN_127,7,B7_N0,,,,,,,
